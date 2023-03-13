@@ -49,42 +49,42 @@ public class HW1 {
 // Ввод числа ->
 // Ввод знака ->
 // Ввод числа ->
-public static void main(String[] args) {
-    Scanner calc = new Scanner(System.in);
+// public static void main(String[] args) {
+//     Scanner calc = new Scanner(System.in);
 
-    System.out.print("Введите первое число: ");
-    double num1 = calc.nextDouble();
+//     System.out.print("Введите первое число: ");
+//     double num1 = calc.nextDouble();
 
-    System.out.print("Введите оператор (+, -, *, /): ");
-    char operator = calc.next().charAt(0);
+//     System.out.print("Введите оператор (+, -, *, /): ");
+//     char operator = calc.next().charAt(0);
 
-    System.out.print("Введите второе число: ");
-    double num2 = calc.nextDouble();
+//     System.out.print("Введите второе число: ");
+//     double num2 = calc.nextDouble();
 
-    double result;
+//     double result;
 
-    switch (operator) {
-        case '+':
-            result = num1 + num2;
-            break;
+//     switch (operator) {
+//         case '+':
+//             result = num1 + num2;
+//             break;
 
-        case '-':
-            result = num1 - num2;
-            break;
+//         case '-':
+//             result = num1 - num2;
+//             break;
 
-        case '*':
-            result = num1 * num2;
-            break;
+//         case '*':
+//             result = num1 * num2;
+//             break;
 
-        case '/':
-            result = num1 / num2;
-            break;
+//         case '/':
+//             result = num1 / num2;
+//             break;
 
-        default:
-            System.out.println("Ошибка: введен неверный оператор");
-            return;
-        }
+//         default:
+//             System.out.println("Ошибка: введен неверный оператор");
+//             return;
+//         }
 
-    System.out.println(num1 + " " + operator + " " + num2 + " = " + result);
-    }
+//     System.out.println(num1 + " " + operator + " " + num2 + " = " + result);
+//     }
 }
